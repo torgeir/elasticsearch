@@ -185,14 +185,14 @@ public abstract class AbstractBulkByScrollRequest<Self extends AbstractBulkByScr
     }
 
     /**
-     * Should version conflicts cause aborts? Defaults to false.
+     * Should version conflicts cause aborts?
      */
     public boolean isAbortOnVersionConflict() {
         return abortOnVersionConflict;
     }
 
     /**
-     * Should version conflicts cause aborts? Defaults to false.
+     * Should version conflicts cause aborts?
      */
     public Self setAbortOnVersionConflict(boolean abortOnVersionConflict) {
         this.abortOnVersionConflict = abortOnVersionConflict;
